@@ -26,6 +26,6 @@ function greet(timeInput) {
 
 /* Write your implementation of displayMessage() */
 function displayMessage(message) {
-  const greetingNode = document.getElementById("greeting");
+  const greetingNode = document.getElementById("greeting"); 
   greetingNode.innerText = message;
 }
