@@ -19,7 +19,7 @@ function greet(timeInput) {
   } else if (timeSplit[0] >= 12 && timeSplit[0] <= 18 ) {
     return "Good Afternoon";
   } else {
-    return "Good Evening";
+    return "Good Evening"; 
   }
 }
 
